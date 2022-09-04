@@ -1,0 +1,105 @@
+**private-server-discord-bot**
+developer = Adix
+discord support = AÐïx ¥†#0814
+discord channel = https://discord.gg/BZgn5V7
+
+
+
+
+
+------------------------------------------------------Installation----------------------------------------------------------
+
+- download and install Python (letest version)
+
+- extract the music_bot.rar file
+
+- move ffmpeg folder to 'C/:' drive
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+**-- How to create bot --**												    
+
+First, goto https://discord.com/developers/applications
+create one application and name it as you want (you can add bot DP if you want)--
+
+- click on that application
+- goto Bot
+- Create one bot
+- rename the bot and under rename tab , copy the bot token . (if you have 2FA on then, click on reset token and copy token)
+- Enable `MESSAGE CONTENT INTENT` on bot setting
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+**-- File Configuration --**
+- Goto 'private-server-discord-bot' folder & edit config.py with notepad or any IDE .
+
+- Place your bot token there inside the quotation('between this') .
+- Change your bot name in config.py .
+- Change your server name in config.py .
+- Don't change anything on channel_id or message_id for now.
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+**-- Invite Bot to Server --**
+- goto https://discord.com/developers/applications .
+- open the application and goto 'oauth2' |_=> 'URL Generator' .
+- select the scopes ✅bot .
+- copy the link from the bottom .
+- Make some changes to give your bot the permissions 
+
+
+|| Easy/Alternative way (Give the Bot Admin Power):
+	-Scroll down to `BOT PERMISSIONS` .
+	-Click on ✅Administrator .
+	-Copy the link from bottom .
+
+
+|| Modify link for better settings (if you want to use bot without giving Admin power) :
+	-If your bot invite link look like this :
+			'https://discord.com/api/oauth2/authorize?client_id=1234556788&permissions=0&scope=bot'
+							       (find the number after 'permission=') 
+	
+	-Change to this 'permissions=36908352&scope=bot' , permission number Should be 36908352
+
+
+
+
+
+
+- After copying link , open this link and invite the bot to your server
+
+
+
+----------------------------------------------------------------------------------------------------------------------------
+**-- Now only few steps left to setup the bot channel --**
+
+- Goto 'private-server-discord-bot' folder & run the start.bat file .
+- Check if bot is online on your discord server .
+- Create one text channel like ;play-music; or something .
+- type '?setup' and you'll get channel_id and message_id
+- Update those ID on config.py file.
+- delete the last message of id from discord channel . 
+- restart the bot & enjoy .
+
+
+
+
+
+
+
+
+
+																											   
+																											@CopyRight.Pychan.Adix
+
+
+
+
+
